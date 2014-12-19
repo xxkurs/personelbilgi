@@ -16,7 +16,7 @@ import javax.persistence.PersistenceContext;
  */
 @Stateless
 public class KisiFacade extends AbstractFacade<Kisi> {
-    @PersistenceContext(unitName = "com.javakurs_PeronelBilgi_war_1.0-SNAPSHOTPU")
+    @PersistenceContext(unitName = "personelbilgiPU")
     private EntityManager em;
 
     @Override
